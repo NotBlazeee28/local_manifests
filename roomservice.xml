@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="peridot-org"
+           fetch="https://github.com/Blazing-Forest"
+           revision="16.0" />
+
+  <remote name="halcyonlv"
+           fetch="https://github.com/halcyonlv"
+           revision="16.0" />
+
+  <remote name="halcyonlv-gitea"
+           fetch="https://git.hlcyn.co/halcyonlv"
+           revision="16.0" />
+
+  <!-- Device -->
+  <project path="device/xiaomi/peridot" name="device_xiaomi_peridot" remote="halcyonlv" />
+  <project path="device/xiaomi/peridot-miuicamera" name="device_xiaomi_peridot-miuicamera" remote="halcyonlv" />
+
+  <!-- Harware -->
+  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="peridot-org" />
+
+  <!-- Kernel -->
+  <project path="kernel/xiaomi/sm8635" name="kernel_xiaomi_sm8635" remote="halcyonlv" />
+  <project path="kernel/xiaomi/sm8635-modules" name="kernel_xiaomi_sm8635-modules" remote="halcyonlv" />
+  <project path="kernel/xiaomi/sm8635-devicetrees" name="kernel_xiaomi_sm8635-devicetrees" remote="halcyonlv" />
+
+  <!-- Packages -->
+  <project path="packages/apps/XiaomiDolby" name="packages_apps_XiaomiDolby" remote="peridot-org" />
+
+  <!-- Vendor -->
+  <project path="vendor/xiaomi/peridot" name="vendor_xiaomi_peridot" remote="halcyonlv-gitea" />
+  <project path="vendor/xiaomi/peridot-miuicamera" name="vendor_xiaomi_peridot-miuicamera" remote="halcyonlv-gitea" />
+
+</manifest>
