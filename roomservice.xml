@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="peridot-org"
+           fetch="https://github.com/NotBlazeee28"
+           revision="lineage-23.1" />
+
+  <!-- Device -->
+  <project path="device/xiaomi/peridot" name="device_xiaomi_peridot" remote="peridot-org" revision="test" />
+
+  <!-- Harware -->
+  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="peridot-org" />
+
+  <!-- Kernel -->
+  <project path="kernel/xiaomi/sm8635" name="kernel_xiaomi_sm8635" remote="peridot-org" />
+  <project path="kernel/xiaomi/sm8635-modules" name="kernel_xiaomi_sm8635-modules" remote="peridot-org" />
+  <project path="kernel/xiaomi/sm8635-devicetrees" name="kernel_xiaomi_sm8635-devicetrees" remote="peridot-org" />
+
+  <!-- Vendor -->
+  <project path="vendor/xiaomi/peridot" name="vendor_xiaomi_peridot" remote="peridot-org" revision="test" />
+
+</manifest>
