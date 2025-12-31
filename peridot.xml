@@ -2,7 +2,7 @@
 <manifest>
   <remote name="peridot"
            fetch="https://github.com/NotBlazeee28"
-           revision="lineage-23.0" />
+           revision="lineage-23.1" />
 
   <!-- Device -->
   <project path="device/xiaomi/peridot" name="device_xiaomi_peridot" remote="peridot" />
